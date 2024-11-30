@@ -1,6 +1,6 @@
 # CV - Arnaud Bonnafoux
 
-Ce projet présente mon CV sous forme de page web interactive, avec un design simple et moderne. Il est conçu pour être responsive, s'adaptant à toutes les tailles d'écran.
+Ce projet présente mon CV sous forme de page web, avec un design simple et moderne. Il est conçu pour être responsive, s'adaptant à toutes les tailles d'écran.
 
 ## Utilisation
 
