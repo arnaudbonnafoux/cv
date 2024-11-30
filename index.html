@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <title>CV_Arnaud Bonnafoux</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            padding: 10px;
+            /*background-color:#FFCFD2;*/
+            background-image:url('visuel_5.jpg');
+            color: #333;
+        }
+        p {
+            text-align: justify; /* Alignement justifié du texte */
+            padding-left:10px;
+            padding-right:10px;
+            padding-bottom:10px;
+            font-size:16px
+        }
+
+        h1, h2, h3 {
+            color: #2c3e50;
+            padding-left: 10px;
+        }
+        .container {
+            max-width: 1000px;
+            margin: auto;
+            background-color: transparent;
+        }
+        header {
+            
+
+            background-color: rgba(240, 147, 178, 0.70); /* Exemple avec 80% d'opacité */
+           /* rgba(155, 150, 176, 0.8);*/
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom:45px;
+        }
+        a {
+            color: #fff;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .section {
+            background-color: rgba(255, 255, 255, 0.70); /* Blanc à 80% de transparence */
+            border-radius: 12px; /* Coins arrondis */
+            margin-bottom: 45px;
+        }
+        .section h2  {
+            border-bottom: 2px solid #2c3e50;
+            padding-bottom:10px;
+        }
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 20px;
+        }
+        i {
+            margin-right: 5px; /* Espacement entre l'icône et le texte */
+            color: #2c3e50; /* Harmonisation des couleurs avec ton design */
+            vertical-align: middle; /* Alignement vertical des icônes */
+        }
+        @media screen and (max-width: 600px) {
+            p {
+                font-size: 14px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <!--<img src="visuel.png" alt="Photo de Arnaud Bonnafoux" class="photo">-->
+            <div>
+                <h1>Arnaud Bonnafoux</h1>
+                <h3><strong>Développeur Web Full Stack</strong></h3>
+                <p>
+                    <i class="fas fa-map-marker-alt"></i> Chantilly | 
+                    <i class="fas fa-phone"></i> 06 14 64 14 84 | 
+                    <i class="fas fa-envelope"></i> 
+                    <a href="mailto:bonnafouxarnaud@gmail.com">bonnafouxarnaud@gmail.com</a> | 
+                    <a href="https://github.com/arnaudbonnafoux" target="_blank">GitHub</a>
+                </p>              
+            </div>
+        </header>
+
+        <div class="section">
+            <h2>Résumé</h2>
+            <p>"Fort d’une expérience enrichissante dans le domaine de la musique, 
+                je souhaite mettre à profit ma créativité, ma rigueur et mon sens de l’adaptation dans le métier de développeur web. 
+                Passionné par les technologies modernes, 
+                je suis prêt à relever de nouveaux défis en développant des solutions performantes et innovantes."</p>
+        </div>
+
+        <!-- Début de la grille -->
+        <div class="grid-container">
+            <div class="section">
+                <h2>Compétences Techniques</h2>
+                <h3>Développement Front-End</h3>
+                <p>
+                => Maîtrise des technologies web standards : HTML5, CSS3, JavaScript (ES6+).<br>
+                => Développement d'interfaces dynamiques avec React.<br>
+                => Connaissance des principes de design responsive et d’accessibilité.
+                </p>
+                <h3>Développement Back-End</h3>
+                <p>
+                => Développement d'applications serveur avec Node.js.<br>
+                => Création et consommation d'API RESTful.<br>
+                </p>
+                <h3>Bases de données</h3>
+                <p>
+                    => Gestion des données avec PostgreSQL.<br>
+                    => Optimisation des requêtes SQL et leur intégration dans des applications.<br>
+                </p>
+                <h3>Scripting et automatisation</h3>
+                <p>
+                    => Automatisation de tâches et gestion de serveurs avec Bash.<br>
+                </p>
+
+                <h3>Hébergement et déploiement</h3>
+                <p>
+                    => Hébergement sur serveur local pour le développement et les tests.<br>
+                    => Déploiement sur serveurs virtuels (VPS) comme OVH avec des configurations
+                    avancées (Nginx, SSL).<br>
+                    => Publication de sites statiques sur GitHub Pages avec intégration CI/CD.
+                </p>
+            </div>
+
+            <div class="section">
+                <h2>Expériences Professionnelles</h2>
+                <p>
+                    <strong>Professeur d'éducation musicale</strong><br>d'avril 2024 à août 2024 Académie d'Amiens<br>
+                    <strong>Professeur d'éducation musicale</strong><br>de 2021 à 2022 Académie de Versailles<br>
+                    <strong>Chargé d'accompagnement artistique</strong><br>de septembre 2019 à 2022 Arkadémia<br>
+                    <strong>Actions culturelles</strong><br> de 2018 à 2020, La Grange à Musique<br>
+                    <strong>Animateur d'ateliers de pratique musicale</strong><br>de septembre 2001 à janvier 2023<br>
+                    <strong>Professeur de batterie</strong><br>de 2001 à janvier 2023 Arkadémia
+                </p>
+                <h2>Diplômes et Formations</h2>
+                <p>
+                    <strong>D.E.A. de Musicologie</strong><br>Université Lille 3, 1999<br>
+                    <strong>Diplôme instrumental (batterie)</strong><br>École régionale de batterie Dante Agostini Lille, 2000
+                </p>
+                <h2>Atouts</h2>
+                <p>
+                    Créativité et capacité d’adaptation.<br>
+                    Rigueur et autonomie.<br>
+                    Dynamisme et sens de l’innovation.<br>
+                </p>
+            </div>
+
+            <div class="section">   
+                <h2>Langues</h2>
+                <p>
+                    Anglais : Niveau intermédiaire (lecture et écriture techniques courantes).
+                </p>
+            </div>
+            <div class="section">
+                <h2>Centres d’intérêt</h2>
+                <p>
+                Randonnées pédestres, sorties culturelles, lectures, composition musicale.
+                </p>
+            </div>
+        </div>
+        <!-- Fin de la grille -->
+    </div>
+</body>
+</html>
+
